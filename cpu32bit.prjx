@@ -1,0 +1,595 @@
+KEY LIBERO "2025.1"
+KEY CAPTURE "2025.1.0.14"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "PolarFireSoC"
+KEY VendorTechnology_Die "PA5SOC095T"
+KEY VendorTechnology_Package "fcsg325"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.0"
+KEY VendorTechnology_PART_RANGE "EXT"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS18"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA5SOC095T"
+KEY VendorTechnology_TEMPR "EXT"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
+KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
+KEY VendorTechnology_VOLTR "EXT"
+KEY ProjectLocation "E:\verilog_study\cpu32bit"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "cpu::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\SgCore\PF_OSC\1.0.102\PF_OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1775242686"
+SIZE="243"
+PARENT="<project>\component\work\PF_OSC_C0\PF_OSC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\cpu\cpu.cxf,actgen_cxf"
+STATE="utd"
+TIME="1776085387"
+SIZE="4213"
+ENDFILE
+VALUE "<project>\component\work\cpu\cpu.v,hdl"
+STATE="utd"
+TIME="1776085387"
+SIZE="8504"
+PARENT="<project>\component\work\cpu\cpu.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\PF_OSC_C0\PF_OSC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1775242687"
+SIZE="2369"
+ENDFILE
+VALUE "<project>\component\work\PF_OSC_C0\PF_OSC_C0.v,hdl"
+STATE="utd"
+TIME="1775242686"
+SIZE="2101"
+PARENT="<project>\component\work\PF_OSC_C0\PF_OSC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\PF_OSC_C0\PF_OSC_C0_0\PF_OSC_C0_PF_OSC_C0_0_PF_OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1775242686"
+SIZE="479"
+PARENT="<project>\component\work\PF_OSC_C0\PF_OSC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\PF_OSC_C0\PF_OSC_C0_0\PF_OSC_C0_PF_OSC_C0_0_PF_OSC.v,hdl"
+STATE="utd"
+TIME="1775242686"
+SIZE="419"
+PARENT="<project>\component\work\PF_OSC_C0\PF_OSC_C0_0\PF_OSC_C0_PF_OSC_C0_0_PF_OSC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\hdl\adder4.v,hdl"
+STATE="utd"
+TIME="1775241433"
+SIZE="457"
+ENDFILE
+VALUE "<project>\hdl\cu.v,hdl"
+STATE="utd"
+TIME="1775314409"
+SIZE="651"
+ENDFILE
+VALUE "<project>\hdl\datapath\3to8decoder.v,hdl"
+STATE="utd"
+TIME="1775236212"
+SIZE="675"
+ENDFILE
+VALUE "<project>\hdl\datapath\5to32decoder.v,hdl"
+STATE="utd"
+TIME="1775236212"
+SIZE="778"
+ENDFILE
+VALUE "<project>\hdl\datapath\alu.v,hdl"
+STATE="utd"
+TIME="1775236212"
+SIZE="457"
+ENDFILE
+VALUE "<project>\hdl\datapath\datamemory.v,hdl"
+STATE="utd"
+TIME="1775841607"
+SIZE="672"
+ENDFILE
+VALUE "<project>\hdl\datapath\fulladder32bit.v,hdl"
+STATE="utd"
+TIME="1775236212"
+SIZE="426"
+ENDFILE
+VALUE "<project>\hdl\datapath\full_adder2.v,hdl"
+STATE="utd"
+TIME="1775305949"
+SIZE="198"
+ENDFILE
+VALUE "<project>\hdl\datapath\imem32bit.v,hdl"
+STATE="utd"
+TIME="1775313221"
+SIZE="427"
+ENDFILE
+VALUE "<project>\hdl\datapath\mux2to1.v,hdl"
+STATE="utd"
+TIME="1775236212"
+SIZE="166"
+ENDFILE
+VALUE "<project>\hdl\datapath\mux2to1_32bit.v,hdl"
+STATE="utd"
+TIME="1775236212"
+SIZE="143"
+ENDFILE
+VALUE "<project>\hdl\datapath\mux5to1.v,hdl"
+STATE="utd"
+TIME="1775236232"
+SIZE="408"
+ENDFILE
+VALUE "<project>\hdl\datapath\mux5to1_32bit.v,hdl"
+STATE="utd"
+TIME="1775236212"
+SIZE="299"
+ENDFILE
+VALUE "<project>\hdl\datapath\reg32bit.v,hdl"
+STATE="utd"
+TIME="1775321591"
+SIZE="338"
+ENDFILE
+VALUE "<project>\hdl\datapath\regfile5x32.v,hdl"
+STATE="utd"
+TIME="1775572752"
+SIZE="662"
+ENDFILE
+VALUE "<project>\hdl\datapath\signextend.v,hdl"
+STATE="utd"
+TIME="1775236346"
+SIZE="120"
+ENDFILE
+VALUE "<project>\hdl\datapath\word32bit.v,hdl"
+STATE="utd"
+TIME="1775322155"
+SIZE="542"
+ENDFILE
+VALUE "<project>\hdl\divideclk.v,hdl"
+STATE="utd"
+TIME="1775242770"
+SIZE="517"
+ENDFILE
+VALUE "<project>\hdl\divide_addr.v,hdl"
+STATE="utd"
+TIME="1775239513"
+SIZE="116"
+ENDFILE
+VALUE "<project>\hdl\divide_rr.v,hdl"
+STATE="utd"
+TIME="1775326449"
+SIZE="149"
+ENDFILE
+VALUE "<project>\hdl\fulladder5bit.v,hdl"
+STATE="utd"
+TIME="1775238208"
+SIZE="421"
+ENDFILE
+VALUE "<project>\hdl\pc_divide.v,hdl"
+STATE="utd"
+TIME="1775239230"
+SIZE="292"
+ENDFILE
+VALUE "<project>\hdl\reg32bit.v,hdl"
+STATE="utd"
+TIME="1775563224"
+SIZE="471"
+ENDFILE
+VALUE "<project>\hdl\reg8bit.v,hdl"
+STATE="utd"
+TIME="1775563895"
+SIZE="345"
+ENDFILE
+VALUE "<project>\hdl\uart_32b_ip.v,hdl"
+STATE="utd"
+TIME="1776071720"
+SIZE="1390"
+ENDFILE
+VALUE "<project>\hdl\uart_baud_gen.v,hdl"
+STATE="utd"
+TIME="1776071565"
+SIZE="665"
+ENDFILE
+VALUE "<project>\hdl\uart_bridge_32b.v,hdl"
+STATE="utd"
+TIME="1776071531"
+SIZE="4305"
+ENDFILE
+VALUE "<project>\hdl\uart_control.v,hdl"
+STATE="utd"
+TIME="1776072540"
+SIZE="1592"
+ENDFILE
+VALUE "<project>\hdl\uart_rx.v,hdl"
+STATE="utd"
+TIME="1776071441"
+SIZE="2312"
+ENDFILE
+VALUE "<project>\hdl\uart_tx.v,hdl"
+STATE="utd"
+TIME="1776085380"
+SIZE="2023"
+ENDFILE
+VALUE "<project>\simulation\binary2.txt,sim"
+STATE="utd"
+TIME="1775242271"
+SIZE="164"
+ENDFILE
+VALUE "<project>\simulation\cpu_tb_waveform.vcd,vcd"
+STATE="utd"
+TIME="1775841849"
+SIZE="106075"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1775841778"
+SIZE="1750"
+ENDFILE
+VALUE "<project>\simulation\tb_cpu_load_control_presynth_simulation.log,log"
+STATE="utd"
+TIME="1776085403"
+SIZE="10010"
+ENDFILE
+VALUE "<project>\stimulus\tb.v,tb_hdl"
+STATE="utd"
+TIME="1776082740"
+SIZE="3551"
+ENDFILE
+VALUE "<project>\synthesis\cpu.so,so"
+STATE="utd"
+TIME="1775841672"
+SIZE="206"
+ENDFILE
+VALUE "<project>\synthesis\cpu.vm,syn_vm"
+STATE="ood"
+TIME="1775841670"
+SIZE="524133"
+ENDFILE
+VALUE "<project>\synthesis\cpu_syn.prj,prj"
+STATE="utd"
+TIME="1775841673"
+SIZE="3811"
+ENDFILE
+VALUE "<project>\synthesis\cpu_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1775841670"
+SIZE="955"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1775241099"
+SIZE="159"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "cpu::work"
+FILE "<project>\component\work\cpu\cpu.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\tb.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST cpu
+VALUE "<project>\stimulus\tb.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=tb_cpu_load_control
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+SdfCorner=slow_lv_ht
+PliPath=C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/modelsimpro/pli/pf_crypto_win_me_pli.dll
+UseCustomPliPath=false
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\ModelSim_Pro\win32acoem\modelsim.exe"
+PARAM=" -l tb_cpu_load_control_presynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "cpu::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+SmartDesign;cpu;0
+HDL;hdl\uart_control.v;0
+HDL;hdl\uart_bridge_32b.v;0
+HDL;hdl\uart_32b_ip.v;0
+HDL;hdl\uart_tx.v;0
+HDL;hdl\divideclk.v;0
+HDL;stimulus\tb.v;0
+Reports;Reports;0
+ReportsCurrentItem;Place and Route:cpu_glb_net_report.xml
+HDL;hdl\datapath\reg32bit.v;0
+HDL;component\work\cpu\cpu.v;0
+HDL;hdl\datapath\datamemory.v;0
+HDL;hdl\uart_baud_gen.v;0
+HDL;hdl\uart_rx.v;0
+HDL;synthesis\cpu.srr;0
+HDL;hdl\divide_rr.v;0
+HDL;hdl\datapath\imem32bit.v;0
+HDL;hdl\adder4.v;0
+HDL;hdl\datapath\regfile5x32.v;0
+HDL;hdl\cu.v;0
+HDL;hdl\datapath\5to32decoder.v;0
+HDL;hdl\reg8bit.v;0
+HDL;hdl\reg32bit.v;0
+HDL;hdl\datapath\3to8decoder.v;0
+HDL;hdl\datapath\mux5to1_32bit.v;0
+HDL;hdl\datapath\mux2to1.v;0
+HDL;hdl\datapath\signextend.v;0
+HDL;hdl\datapath\fulladder32bit.v;0
+HDL;hdl\fulladder5bit.v;0
+StartPage;StartPage;0
+HDL;component\syn_comps.v;0
+HDL;hdl\datapath\word32bit.v;0
+HDL;hdl\datapath\full_adder2.v;0
+HDL;hdl\datapath\alu.v;0
+ACTIVEVIEW;hdl\uart_control.v
+ENDLIST
+LIST ModuleSubBlockList
+LIST "adder4::work","hdl\adder4.v","FALSE","FALSE"
+SUBBLOCK "full_adder::work","hdl\datapath\full_adder2.v","FALSE","FALSE"
+ENDLIST
+LIST "ALU::work","hdl\datapath\alu.v","FALSE","FALSE"
+SUBBLOCK "full_adder_32bit::work","hdl\datapath\fulladder32bit.v","FALSE","FALSE"
+SUBBLOCK "mux2to1_32bit::work","hdl\datapath\mux2to1_32bit.v","FALSE","FALSE"
+ENDLIST
+LIST "clk_divider::work","hdl\divideclk.v","FALSE","FALSE"
+ENDLIST
+LIST "control_unit::work","hdl\cu.v","FALSE","FALSE"
+ENDLIST
+LIST "cpu::work","component\work\cpu\cpu.v","TRUE","FALSE"
+SUBBLOCK "ALU::work","hdl\datapath\alu.v","FALSE","FALSE"
+SUBBLOCK "DATA_MEMORY::work","hdl\datapath\datamemory.v","FALSE","FALSE"
+SUBBLOCK "IMEM32::work","hdl\datapath\imem32bit.v","FALSE","FALSE"
+SUBBLOCK "adder4::work","hdl\adder4.v","FALSE","FALSE"
+SUBBLOCK "control_unit::work","hdl\cu.v","FALSE","FALSE"
+SUBBLOCK "divide_pc::work","hdl\pc_divide.v","FALSE","FALSE"
+SUBBLOCK "divide_rr::work","hdl\divide_rr.v","FALSE","FALSE"
+SUBBLOCK "mux2to1_32bit::work","hdl\datapath\mux2to1_32bit.v","FALSE","FALSE"
+SUBBLOCK "mux2to1::work","hdl\datapath\mux2to1.v","FALSE","FALSE"
+SUBBLOCK "reg_5bit::work","hdl\datapath\reg32bit.v","FALSE","FALSE"
+SUBBLOCK "regfile5x32bit::work","hdl\datapath\regfile5x32.v","FALSE","FALSE"
+SUBBLOCK "sign_extend::work","hdl\datapath\signextend.v","FALSE","FALSE"
+SUBBLOCK "uart_32b_ip::work","hdl\uart_32b_ip.v","FALSE","FALSE"
+SUBBLOCK "uart_cpu_mux::work","hdl\uart_control.v","FALSE","FALSE"
+ENDLIST
+LIST "DATA_MEMORY::work","hdl\datapath\datamemory.v","FALSE","FALSE"
+ENDLIST
+LIST "decoder3to8::work","hdl\datapath\3to8decoder.v","FALSE","FALSE"
+ENDLIST
+LIST "decoder5to32::work","hdl\datapath\5to32decoder.v","FALSE","FALSE"
+SUBBLOCK "decoder3to8::work","hdl\datapath\3to8decoder.v","FALSE","FALSE"
+ENDLIST
+LIST "divide_addr::work","hdl\divide_addr.v","FALSE","FALSE"
+ENDLIST
+LIST "divide_pc::work","hdl\pc_divide.v","FALSE","FALSE"
+ENDLIST
+LIST "divide_rr::work","hdl\divide_rr.v","FALSE","FALSE"
+ENDLIST
+LIST "full_adder::work","hdl\datapath\full_adder2.v","FALSE","FALSE"
+ENDLIST
+LIST "full_adder_32bit::work","hdl\datapath\fulladder32bit.v","FALSE","FALSE"
+SUBBLOCK "full_adder::work","hdl\datapath\full_adder2.v","FALSE","FALSE"
+ENDLIST
+LIST "full_adder_5bit::work","hdl\fulladder5bit.v","FALSE","FALSE"
+SUBBLOCK "full_adder::work","hdl\datapath\full_adder2.v","FALSE","FALSE"
+ENDLIST
+LIST "IMEM32::work","hdl\datapath\imem32bit.v","FALSE","FALSE"
+ENDLIST
+LIST "mux2to1::work","hdl\datapath\mux2to1.v","FALSE","FALSE"
+ENDLIST
+LIST "mux2to1_32bit::work","hdl\datapath\mux2to1_32bit.v","FALSE","FALSE"
+ENDLIST
+LIST "mux5to1::work","hdl\datapath\mux5to1.v","FALSE","FALSE"
+ENDLIST
+LIST "mux5to1_32bit::work","hdl\datapath\mux5to1_32bit.v","FALSE","FALSE"
+SUBBLOCK "mux5to1::work","hdl\datapath\mux5to1.v","FALSE","FALSE"
+ENDLIST
+LIST "PF_OSC_C0::work","component\work\PF_OSC_C0\PF_OSC_C0.v","TRUE","FALSE"
+SUBBLOCK "PF_OSC_C0_PF_OSC_C0_0_PF_OSC::work","component\work\PF_OSC_C0\PF_OSC_C0_0\PF_OSC_C0_PF_OSC_C0_0_PF_OSC.v","FALSE","FALSE"
+ENDLIST
+LIST "PF_OSC_C0_PF_OSC_C0_0_PF_OSC::work","component\work\PF_OSC_C0\PF_OSC_C0_0\PF_OSC_C0_PF_OSC_C0_0_PF_OSC.v","FALSE","FALSE"
+ENDLIST
+LIST "reg_32bit::work","hdl\reg32bit.v","FALSE","FALSE"
+SUBBLOCK "reg_4bit::work","hdl\reg8bit.v","FALSE","FALSE"
+ENDLIST
+LIST "reg_4bit::work","hdl\reg8bit.v","FALSE","FALSE"
+ENDLIST
+LIST "reg_5bit::work","hdl\datapath\reg32bit.v","FALSE","FALSE"
+ENDLIST
+LIST "regfile5x32bit::work","hdl\datapath\regfile5x32.v","FALSE","FALSE"
+ENDLIST
+LIST "sign_extend::work","hdl\datapath\signextend.v","FALSE","FALSE"
+ENDLIST
+LIST "uart_32b_ip::work","hdl\uart_32b_ip.v","FALSE","FALSE"
+SUBBLOCK "uart_baud_gen::work","hdl\uart_baud_gen.v","FALSE","FALSE"
+SUBBLOCK "uart_bridge_32b::work","hdl\uart_bridge_32b.v","FALSE","FALSE"
+SUBBLOCK "uart_rx::work","hdl\uart_rx.v","FALSE","FALSE"
+SUBBLOCK "uart_tx::work","hdl\uart_tx.v","FALSE","FALSE"
+ENDLIST
+LIST "uart_baud_gen::work","hdl\uart_baud_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "uart_bridge_32b::work","hdl\uart_bridge_32b.v","FALSE","FALSE"
+ENDLIST
+LIST "uart_cpu_mux::work","hdl\uart_control.v","FALSE","FALSE"
+ENDLIST
+LIST "uart_rx::work","hdl\uart_rx.v","FALSE","FALSE"
+ENDLIST
+LIST "uart_tx::work","hdl\uart_tx.v","FALSE","FALSE"
+ENDLIST
+LIST "word32bit::work","hdl\datapath\word32bit.v","FALSE","FALSE"
+ENDLIST
+LIST "tb_cpu_load_control::work","stimulus\tb.v","FALSE","TRUE"
+SUBBLOCK "cpu::work","component\work\cpu\cpu.v","TRUE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "cpu::work"
+ACTIVETESTBENCH "tb_cpu_load_control::work","stimulus\tb.v","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST
